@@ -1,0 +1,44 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* price_mrp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20200130\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-27 23:07+0000\n"
+"PO-Revision-Date: 2020-06-27 23:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: price_mrp
+#: model:ir.actions.server,name:price_mrp.action_compute_list_price_bom_product
+#: model:ir.actions.server,name:price_mrp.action_compute_list_price_bom_template
+#: model_terms:ir.ui.view,arch_db:price_mrp.product_product_ext_form_view3
+#: model_terms:ir.ui.view,arch_db:price_mrp.product_product_view_form_normal_inherit_extended2
+msgid "Compute List Price from BoM"
+msgstr "Calcular Precio de Venta de LdM"
+
+#. module: price_mrp
+#: model_terms:ir.ui.view,arch_db:price_mrp.product_product_ext_form_view3
+#: model_terms:ir.ui.view,arch_db:price_mrp.product_product_view_form_normal_inherit_extended2
+msgid ""
+"Compute the list price of the product using products and operations of "
+"related bill of materials, for manufactured products only."
+msgstr ""
+"Calcular el precio de venta de los productos usando los productos "
+"relacionados en la lista de materiales, solo para productos que se producen."
+
+#. module: price_mrp
+#: model:ir.model,name:price_mrp.model_product_product
+msgid "Product"
+msgstr "Producto"
+
+#. module: price_mrp
+#: model:ir.model,name:price_mrp.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de Producto"
